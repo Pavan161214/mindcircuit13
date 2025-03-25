@@ -17,12 +17,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>NexusRepo</id>
-		    <url>http://100.25.155.112:8081/repository/mc-snapshot/</url>
+		    <url>http://ec2-34-229-166-184.compute-1.amazonaws.com:8081/repository/b15-snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>NexusRepo</id>
-		    <url>http://ec2-3-87-3-6.compute-1.amazonaws.com:8081/repository/mc-artifacts/</url>
+		    <url>http://ec2-34-229-166-184.compute-1.amazonaws.com:8081/repository/b15-release/</url>
 		</repository>
   	</distributionManagement>
 
